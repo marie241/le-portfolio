@@ -33,11 +33,12 @@ export default function Portfolio() {
 
               <CardFooter>
                 <div className="">
-                  <h3 className="text-xl font-semibold mb-2">E-commerce</h3>
+                  <h3 className="text-xl font-semibold mb-2"> <a href="https://dengui.ga" target="_blank" rel="noopener noreferrer">Dengui</a></h3>
                   <p className="text-gray-400 text-sm">
-                    Site e-commerce avec système de panier et dashboard admin
-                    sous Next.js + Stripe.
+                    Annuaire culturel pour la promotion des artistes du Gabon.
+                    Dengui
                   </p>
+                  <samp>Techno: WordPress</samp>
                 </div>
               </CardFooter>
             </Card>
@@ -56,11 +57,12 @@ export default function Portfolio() {
 
               <CardFooter>
                 <div className="">
-                  <h3 className="text-xl font-semibold mb-2">E-commerce</h3>
+                  <h3 className="text-xl font-semibold mb-2"> <a href="https://pondzi-landing-page.vercel.app/" target="_blank" rel="noopener noreferrer">Pondzi-App</a></h3>
                   <p className="text-gray-400 text-sm">
-                    Site e-commerce avec système de panier et dashboard admin
-                    sous Next.js + Stripe.
+                    SAAS de gestion de stock et de facturation pour les TPE et
+                    PME au Gabon.
                   </p>
+                  <samp>Techno: Next.js + Supabase</samp>
                 </div>
               </CardFooter>
             </Card>
@@ -79,11 +81,11 @@ export default function Portfolio() {
 
               <CardFooter>
                 <div className="">
-                  <h3 className="text-xl font-semibold mb-2">E-commerce</h3>
+                  <h3 className="text-xl font-semibold mb-2"> <a href="https://delphes-solutions.com/" target="_blank" rel="noopener noreferrer">Delphes Solutions</a></h3>
                   <p className="text-gray-400 text-sm">
-                    Site e-commerce avec système de panier et dashboard admin
-                    sous Next.js + Stripe.
+                    Site vitrine de la société Delphes Solutions au Gabon.
                   </p>
+                  <samp>Techno: WordPress </samp>
                 </div>
               </CardFooter>
             </Card>
@@ -105,15 +107,18 @@ export default function Portfolio() {
 
               <CardFooter>
                 <div className="">
-                  <h3 className="text-xl font-semibold mb-2">E-commerce</h3>
+                  <h3 className="text-xl font-semibold mb-2"> <a href="#" target="_blank" rel="noopener noreferrer">EBS School</a></h3>
                   <p className="text-gray-400 text-sm">
-                    Site e-commerce avec système de panier et dashboard admin
-                    sous Next.js + Stripe.
+                    Site vitrine de l'école EBS School au Gabon. Ecole suppérieure
+                    de commerce et de gestion.
                   </p>
+                  <samp>Techno: React.js </samp>
                 </div>
               </CardFooter>
             </Card>
           </div>
+
+
           <div>
             <Card>
               <CardHeader>
@@ -128,11 +133,11 @@ export default function Portfolio() {
 
               <CardFooter>
                 <div className="">
-                  <h3 className="text-xl font-semibold mb-2">E-commerce</h3>
+                  <h3 className="text-xl font-semibold mb-2"> <a href="http://twendyane.vercel.app/" target="_blank" rel="noopener noreferrer">Twendyane</a></h3>
                   <p className="text-gray-400 text-sm">
-                    Site e-commerce avec système de panier et dashboard admin
-                    sous Next.js + Stripe.
+                    Site vitrine de l'agence de voyage Twendyane au Gabon.
                   </p>
+                  <samp>Techno: Next.js</samp>
                 </div>
               </CardFooter>
             </Card>
@@ -141,7 +146,7 @@ export default function Portfolio() {
             <Card>
               <CardHeader>
                 <Image
-                  src="/RECR.png"
+                  src="/baponga.png"
                   alt="Projet 3"
                   width={500}
                   height={300}
@@ -151,11 +156,11 @@ export default function Portfolio() {
 
               <CardFooter>
                 <div className="">
-                  <h3 className="text-xl font-semibold mb-2">E-commerce</h3>
+                  <h3 className="text-xl font-semibold mb-2"> <a href="baponga.ga" target="_blank" rel="noopener noreferrer">Twendyane</a></h3>
                   <p className="text-gray-400 text-sm">
-                    Site e-commerce avec système de panier et dashboard admin
-                    sous Next.js + Stripe.
+                    Site portfolio de l'artiste Franck Ba'ponga pour sa discographie.
                   </p>
+                  <samp>Techno: WordPress</samp>
                 </div>
               </CardFooter>
             </Card>

@@ -47,13 +47,14 @@ export default function Navbar() {
               </Link>
             ))}
 
-            {/* Boutons pour desktop */}
             <div className="flex space-x-4">
-              <Link href="formulaire">
-                <Button className="bg-sky-950 text-white rounded-full">
-                  Télécharger mon CV
-                </Button>
-              </Link>
+              <a
+                href="/cv Abraham.pdf"
+                download="cv Abraham.pdf"
+                className="bg-sky-950 text-white rounded-full inline-flex items-center justify-center px-4 py-2 font-medium"
+              >
+                Télécharger mon CV
+              </a>
             </div>
           </div>
 

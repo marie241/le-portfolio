@@ -29,9 +29,13 @@ export default function sect() {
                 dolorem illo, ducimus. Lorem ipsum dolor sit amet consectetur
                 adipisicing elit. Est laborum unde asperiores.
               </p> */}
-              <Button className="h-12 w-32 rounded-full bg-sky-600 hover:bg-sky-700  mt-8 text-white text-lg">
+              <a
+                href="/cv Abraham.pdf"
+                download="cv Abraham.pdf"
+                className="h-12 w-32 rounded-full bg-sky-600 hover:bg-sky-700 mt-8 text-white text-lg inline-flex items-center justify-center px-4 py-2 font-medium"
+              >
                 Mon CV
-              </Button>
+              </a>
             </div>
           </div>
 
