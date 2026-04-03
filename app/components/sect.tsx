@@ -21,17 +21,15 @@ export default function sect() {
             <div className="relative z-10 text-center text-white max-w-3xl px-8">
               <h1 className="md:text-3xl text-2xl">Mbolo samba</h1>
               <h2 className="md:text-5xl mt-2">Je suis Abraham</h2>
-              <span className="md:text-4xl text-sky-400 font-bold block mt-4">
-                Développeur Web Front-End & Entrepreneur Web
+              <span className="md:text-4xl text-blue-400 font-bold block mt-4">
+                Product Manager & Frontend Developer
               </span>
-              {/* <p className="text-lg text-gray-300 mt-4 text-left">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                dolorem illo, ducimus. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Est laborum unde asperiores.
-              </p> */}
+              <p className="text-lg text-gray-300 mt-5 leading-relaxed">
+                Je combine une vision produit stratégique avec une exécution front-end solide pour transformer les besoins utilisateurs en interfaces performantes.
+              </p>
               <a
-                href="/cv Abraham.pdf"
-                download="cv Abraham.pdf"
+                href="/CV Abraham Nyoundou.pdf"
+                download="CV Abraham Nyoundou.pdf"
                 className="h-12 w-32 rounded-full bg-sky-600 hover:bg-sky-700 mt-8 text-white text-lg inline-flex items-center justify-center px-4 py-2 font-medium"
               >
                 Mon CV

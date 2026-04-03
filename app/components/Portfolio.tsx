@@ -57,7 +57,7 @@ export default function Portfolio() {
 
               <CardFooter>
                 <div className="">
-                  <h3 className="text-xl font-semibold mb-2"> <a href="https://pondzi-landing-page.vercel.app/" target="_blank" rel="noopener noreferrer">Pondzi-App</a></h3>
+                  <h3 className="text-xl font-semibold mb-2"> <a href="https://v0-landing-page-pondzi.vercel.app/" target="_blank" rel="noopener noreferrer">Pondzi-App</a></h3>
                   <p className="text-gray-400 text-sm">
                     SAAS de gestion de stock et de facturation pour les TPE et
                     PME au Gabon.
@@ -71,7 +71,7 @@ export default function Portfolio() {
             <Card>
               <CardHeader>
                 <Image
-                  src="/delph.png"
+                  src="/ouyaboung.png"
                   alt="Projet 3"
                   width={500}
                   height={300}
@@ -81,11 +81,11 @@ export default function Portfolio() {
 
               <CardFooter>
                 <div className="">
-                  <h3 className="text-xl font-semibold mb-2"> <a href="https://delphes-solutions.com/" target="_blank" rel="noopener noreferrer">Delphes Solutions</a></h3>
+                  <h3 className="text-xl font-semibold mb-2"> <a href="https://ouyaboung-eight.vercel.app/" target="_blank" rel="noopener noreferrer">Ouyaboung</a></h3>
                   <p className="text-gray-400 text-sm">
-                    Site vitrine de la société Delphes Solutions au Gabon.
+                    Appication PWA d'entigaspillage alimentaire en afrique.
                   </p>
-                  <samp>Techno: WordPress </samp>
+                  <samp>Techno: IA + NEXT JS </samp>
                 </div>
               </CardFooter>
             </Card>
@@ -97,7 +97,7 @@ export default function Portfolio() {
             <Card>
               <CardHeader>
                 <Image
-                  src="/EBS.png"
+                  src="/ceg.png"
                   alt="Projet 3"
                   width={500}
                   height={300}
@@ -107,12 +107,11 @@ export default function Portfolio() {
 
               <CardFooter>
                 <div className="">
-                  <h3 className="text-xl font-semibold mb-2"> <a href="#" target="_blank" rel="noopener noreferrer">EBS School</a></h3>
+                  <h3 className="text-xl font-semibold mb-2"> <a href="#" target="_blank" rel="noopener noreferrer">Confedération des entreprises du Gabon</a></h3>
                   <p className="text-gray-400 text-sm">
-                    Site vitrine de l'école EBS School au Gabon. Ecole suppérieure
-                    de commerce et de gestion.
+                    Site de la Confedération des entreprises du Gabon.
                   </p>
-                  <samp>Techno: React.js </samp>
+                  <samp>Techno: React.js + Supabase </samp>
                 </div>
               </CardFooter>
             </Card>
@@ -156,11 +155,119 @@ export default function Portfolio() {
 
               <CardFooter>
                 <div className="">
-                  <h3 className="text-xl font-semibold mb-2"> <a href="baponga.ga" target="_blank" rel="noopener noreferrer">Twendyane</a></h3>
+                  <h3 className="text-xl font-semibold mb-2"> <a href="baponga.ga" target="_blank" rel="noopener noreferrer">Ba'ponga</a></h3>
                   <p className="text-gray-400 text-sm">
                     Site portfolio de l'artiste Franck Ba'ponga pour sa discographie.
                   </p>
                   <samp>Techno: WordPress</samp>
+                </div>
+              </CardFooter>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Section Product Manager */}
+      <section className="bg-blue-950 text-white py-16 px-4 md:px-20">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold mb-2 text-blue-300">Réalisations Product Manager</h2>
+          <p className="text-blue-200">Exemples de projets où j’ai mené la vision produit et l’exécution flux</p>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 pt-5">
+          <div>
+            <Card>
+              <CardHeader>
+                <Image
+                  src="/ouyaboung.png"
+                  alt="Ouyaboung"
+                  width={500}
+                  height={300}
+                  className="w-full object-cover"
+                />
+              </CardHeader>
+              <CardFooter>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2 text-black">Ouyaboung</h3>
+                  <p className="text-gray-400 text-sm">
+                    Gestion de projet agile, respect des calendriers et des budgets, atteinte des objectifs à 100 %.
+Mise en place des outils de pilotage et des indicateurs de performance permettant d’optimiser la gestion des product backlogs.
+Management opérationnel d’équipe, soutien technique, suivi des performances individuelles et collectives.
+Développement des compétences des collaborateurs sur le plan technique, organisation de la formation.
+                  </p>
+                  <samp className="text-blue-300">PM + Frontend</samp>
+                </div>
+              </CardFooter>
+            </Card>
+          </div>
+
+          <div>
+            <Card>
+              <CardHeader>
+                <Image
+                  src="/pondzilanding.png"
+                  alt="Pondzi-App"
+                  width={500}
+                  height={300}
+                  className="w-full object-cover"
+                />
+              </CardHeader>
+              <CardFooter>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2 text-white">Pondzi-App</h3>
+                  <p className="text-gray-400 text-sm">
+                    Gestion de projet agile, respect des calendriers et des budgets, atteinte des objectifs à 100 %.
+Mise en place des outils de pilotage et des indicateurs de performance permettant d’optimiser la gestion des product backlogs.
+Management opérationnel d’équipe, soutien technique, suivi des performances individuelles et collectives.
+Développement des compétences des collaborateurs sur le plan technique, organisation de la formation.
+                  </p>
+                  <samp className="text-blue-300">PM + Frontend</samp>
+                </div>
+              </CardFooter>
+            </Card>
+          </div>
+
+          <div>
+            <Card>
+              <CardHeader>
+                <Image
+                  src="/ceg.png"
+                  alt="Confedération des entreprises du Gabon"
+                  width={500}
+                  height={300}
+                  className="w-full object-cover"
+                />
+              </CardHeader>
+              <CardFooter>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2 text-white">Confédération des entreprises du Gabon</h3>
+                  <p className="text-gray-400 text-sm">
+                    Projet de site web pour institution, pilotage produit, coordination équipe technique.
+                  </p>
+                  <samp className="text-blue-300">PM + Frontend</samp>
+                </div>
+              </CardFooter>
+            </Card>
+          </div>
+
+          <div>
+            <Card>
+              <CardHeader>
+                <Image
+                  src="/classertif.png"
+                  alt="Classertif"
+                  width={500}
+                  height={300}
+                  className="w-full object-cover"
+                />
+              </CardHeader>
+              <CardFooter>
+                <div>
+                  <h3 className="text-xl font-semibold mb-2 text-white">Classertif</h3>
+                  <p className="text-gray-400 text-sm">
+                    Plateforme de certification en ligne, gestion des évaluations et des parcours de formation.
+                  </p>
+                  <samp className="text-blue-300">PM + Frontend</samp>
                 </div>
               </CardFooter>
             </Card>

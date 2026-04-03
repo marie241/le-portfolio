@@ -22,14 +22,13 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="w-full fixed top-0  px-6 md:px-20 bg-white shadow z-100">
+      <nav className="w-full fixed top-0 px-6 md:px-20 bg-black shadow-lg border-b border-blue-600 z-100">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="h-16 w-24 flex items-center">
             <Link href="#">
-              {/* <Image src={log} alt="Le logo" height={50} /> */}
-              <p className="text-sky-950 font-bold text-2xl">
-                <span>A</span>braham
+              <p className="text-white font-bold text-2xl">
+                <span className="text-blue-400">A</span>braham
               </p>
             </Link>
           </div>
@@ -40,7 +39,7 @@ export default function Navbar() {
               <Link
                 key={index}
                 href={item.href}
-                className="font-semibold hover:text-bg-sky-950"
+                className="font-semibold text-white hover:text-blue-400 transition"
                 scroll={false}
               >
                 {item.label}
@@ -49,8 +48,8 @@ export default function Navbar() {
 
             <div className="flex space-x-4">
               <a
-                href="/cv Abraham.pdf"
-                download="cv Abraham.pdf"
+                href="/CV Abraham Nyoundou.pdf"
+                download="CV Abraham Nyoundou.pdf"
                 className="bg-sky-950 text-white rounded-full inline-flex items-center justify-center px-4 py-2 font-medium"
               >
                 Télécharger mon CV
@@ -73,7 +72,7 @@ export default function Navbar() {
               <Link
                 key={index}
                 href={item.href}
-                className="block font-semibold text-gray-700"
+                className="block font-semibold text-white hover:text-blue-300"
               >
                 {item.label}
               </Link>
